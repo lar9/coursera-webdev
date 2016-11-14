@@ -1,0 +1,39 @@
+body {
+	font-family: 'Raleway', sans-serif;
+	background-color: #94b1cc;
+}
+/** HEADER **/
+#brand-name {
+	min-height: 60px;
+}
+.navbar-brand h1 {
+	margin: 0;
+	font-weight: bold;
+}
+#collapsable-nav {
+	clear: both;
+	background-color: #001d3a;
+	font-size: 1.2em;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 2px solid #001d3a;
+  color: #012b60;
+}
+
+/** END OF HEADER **/
+
+div.row > div {
+	height: 500px;
+	background-color: #e3e8ed;
+	margin-bottom: 20px;
+	padding: 15px;
+}
+
+div.row {
+	margin: 10px;
+}
+
+div.text-center {
+	margin-bottom: 10px;
+	font-size: 1.2em;
+}
